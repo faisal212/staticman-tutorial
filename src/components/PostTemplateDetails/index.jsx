@@ -40,7 +40,7 @@ class PostTemplateDetails extends React.Component {
         <h3>Add a comment</h3>
 <form
   method="POST"
-  action="https://dev.staticman.net/v3/entry/faisal212/staticman-tutorial/master/comments"
+  action="https://api.staticman.net/v3/entry/faisal212/staticman-tutorial/master/comments"
 >
   <input
     name="options[slug]"
